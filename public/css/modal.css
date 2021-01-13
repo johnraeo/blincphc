@@ -1,0 +1,176 @@
+.modal-mask form {
+  margin: 0;
+  padding: 0;
+}
+
+.modal-mask .modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: table;
+  transition: opacity 0.3s ease;
+}
+
+.modal-mask .modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-mask .modal-container {
+  width: 600px;
+  height: auto;
+  margin: 0px auto;
+  padding: 40px 40px 0 40px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+  transition: all 0.3s ease;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-mask .modal-body {
+  padding: 0;
+  margin: 0;
+}
+
+.modal-mask .title {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.modal-mask .group {
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.modal-mask label {
+  margin-bottom: 0;
+}
+
+.modal-mask input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #E0E0E0;
+  width: 100%;
+  font-size: 14px;
+}
+
+.modal-mask input:disabled {
+  font-size: 21px;
+  background-color: transparent;
+  border-color: transparent;
+  color: black;
+}
+
+.modal-mask input:focus {
+  border-color: #3544E6;
+}
+
+.modal-mask .amount:after {
+  content: "PHP";
+}
+
+.modal-mask select {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #E0E0E0;
+  width: 100%;
+  color: black;
+  background-color: transparent;
+  height: 45px;
+  font-size: 21px;
+}
+
+.modal-mask .select-items {
+  position: absolute;
+  background-color: white;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.modal-mask .select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+.modal-mask option {
+  height: 45px;
+  font-size: 21px;
+}
+
+.modal-mask .submit {
+  background-color: #3544E6;
+  text-align: center;
+  color: white;
+  border-color: transparent;
+  height: 60px;
+  width: 100%;
+}
+
+.modal-mask .submit:disabled {
+  background-color: #E0E0E0;
+  color: #AAAAAA;
+}
+
+.modal-mask .submit:hover img {
+  display: inline;
+}
+
+.modal-mask .submit img {
+  color: white;
+  display: none;
+}
+
+.modal-mask button {
+  width: 100%;
+  background-color: transparent;
+  border-color: transparent;
+  padding: 30px 0 30px;
+}
+
+.modal-mask span {
+  float: right;
+  color: red;
+}
+
+.modal-mask .loader {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  visibility: hidden;
+}
+
+.modal-mask .show_loader {
+  visibility: visible;
+  right: 2px;
+  top: 28px;
+  width: 20px;
+}
+
+.modal-mask .change_color {
+  border-color: red;
+}
+
+.modal-mask .success img {
+  width: 100px;
+  height: auto;
+  margin-left: calc(50% - 50px);
+}
+
+.modal-mask .success .title {
+  text-align: center;
+  padding-top: 40px;
+}
+

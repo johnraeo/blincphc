@@ -1,0 +1,116 @@
+// Body
+$body-bg: #f8fafc;
+
+/**
+* Color Constants
+*/
+$primary-color: #3544E6;
+$secondary-color: #7366FF;
+$accent-color: #FF6CAB;
+$ternary-color: #EAECFD;
+
+$white-color: #FFFFFF;
+$background-color: #F8F7FF;
+$black-color: #171717;
+$dark-color: #575656;
+$grey-4-color: #F3F3F3;
+$grey-3-color: #E0E0E0;
+$grey-2-color: #E0E0E0;
+$grey-1-color: #575656;
+
+$success-color: #37CF79;
+$warning-color: #FFAF38;
+$danger-color: #FF5238;
+
+/**
+* Font Size Constants
+*/
+$font-8: 8px;
+$font-10: 10px;
+$font-12: 12px;
+$font-14: 14px;
+$font-16: 16px;
+$font-18: 18px;
+$font-20: 20px;
+$font-21: 21px;
+$font-22: 22px;
+$font-24: 24px;
+$font-26: 26px;
+$font-28: 28px;
+$font-30: 30px;
+$font-32: 32px;
+$font-34: 34px;
+$font-36: 36px;
+$font-38: 38px;
+$font-40: 40px;
+$font-46: 46px;
+
+
+/**
+* Font Family Constants
+*/
+$font-regular: "SF UI Display";
+$font-light:"SF UI Display Light";
+$font-thin:"SF UI Display Thin";
+$font-ultrathin:"SF UI Display Ultrathin";
+$font-medium:"SF UI Display Medium";
+$font-semibold:"SF UI Display Semibold";
+$font-bold:"SF UI Display Bold";
+$font-black:"SF UI Display Black";
+$font-heavy:"SF UI Display Heavy";
+
+/*
+* SF UI Display custom fonts
+*/
+
+@font-face {
+    font-family: "SF UI Display";
+    // src: url('/fonts/sf-ui-display-black-58646a6b80d5a.otf');
+    // src: url('/fonts/sf-ui-display-bold-58646a511e3d9.otf');
+    // src: url('/fonts/sf-ui-display-heavy-586470160b9e5.otf');
+    // src: url('/fonts/sf-ui-display-light-58646b33e0551.otf');
+    src: url('/fonts/sf-ui-display-medium-58646be638f96.otf');
+    // src: url('/fonts/sf-ui-display-semibold-58646eddcae92.otf');
+    // src: url('/fonts/sf-ui-display-thin-58646e9b26e8b.otf');
+    // src: url('/fonts/sf-ui-display-ultralight-58646b19bf205.otf');
+}
+
+@font-face {
+    font-family: "SF UI Display Light";
+    src: url('/fonts/sf-ui-display-light-58646b33e0551.otf');
+}
+
+@font-face {
+    font-family: "SF UI Display Thin";
+    src: url('/fonts/sf-ui-display-thin-58646e9b26e8b.otf');
+}
+
+@font-face {
+    font-family: "SF UI Display Ultrathin";
+    src: url('/fonts/sf-ui-display-ultralight-58646b19bf205.otf');
+}
+
+@font-face {
+    font-family: "SF UI Display Medium";
+    src: url('/fonts/sf-ui-display-medium-58646be638f96.otf');
+}
+
+@font-face {
+    font-family: "SF UI Display Semibold";
+    src: url('/fonts/sf-ui-display-semibold-58646eddcae92.otf');
+}
+
+@font-face {
+    font-family: "SF UI Display Bold";
+    src: url('/fonts/sf-ui-display-bold-58646a511e3d9.otf');
+}
+
+@font-face {
+    font-family: "SF UI Display Black";
+    src: url('/fonts/sf-ui-display-black-58646a6b80d5a.otf');
+}
+
+@font-face {
+    font-family: "SF UI Display Heavy";
+    src: url('/fonts/sf-ui-display-heavy-586470160b9e5.otf');
+}

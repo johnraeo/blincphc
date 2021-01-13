@@ -1,0 +1,9 @@
+<svg id="ic-directions-left-right" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_277" data-name="Rectangle 277" width="24" height="24" fill="none"/>
+  <g id="Vrstva_421" data-name="Vrstva 421" transform="translate(0 0.003)">
+    <path id="Path_559" data-name="Path 559" d="M11,21a1,1,0,0,1-1,1H5a3,3,0,0,1-3-3V6A1,1,0,0,1,4,6V19a1,1,0,0,0,1,1h5A1,1,0,0,1,11,21Z" transform="translate(1.207 -3.006)" fill="#3544E6" fill-rule="evenodd"/>
+    <path id="Path_3758" data-name="Path 3758" d="M2,6A1,1,0,0,1,3,5H8a3,3,0,0,1,3,3V21a1,1,0,0,1-2,0V8A1,1,0,0,0,8,7H3A1,1,0,0,1,2,6Z" transform="translate(10)" fill="#3544E6" fill-rule="evenodd"/>
+    <path id="Path_561" data-name="Path 561" d="M1.5,9.708a1,1,0,0,1,0-1.42L3.8,6,1.5,3.708a1,1,0,1,1,1.42-1.42l2.64,2.65a1.49,1.49,0,0,1,0,2.12l-2.64,2.65a1,1,0,0,1-1.42,0Z" transform="translate(6.994 11.996)" fill="#3544E6" fill-rule="evenodd"/>
+    <path id="Path_3759" data-name="Path 3759" d="M5.71,2.29a1,1,0,0,1,0,1.42L3.41,6l2.3,2.29A1,1,0,1,1,4.29,9.71L1.65,7.06a1.49,1.49,0,0,1,0-2.12L4.29,2.29a1,1,0,0,1,1.42,0Z" transform="translate(10)" fill="#3544E6" fill-rule="evenodd"/>
+  </g>
+</svg>

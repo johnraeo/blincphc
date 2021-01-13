@@ -1,0 +1,22 @@
+@mixin loginSignUp() {
+    // margin: 120px 0 200px 0;
+    height: 100vh;
+}
+
+@mixin buttonLogic($bg, $color, $width, $padding, $margin) {
+    background-color: $bg;
+    width: $width;
+    color: $color;
+    padding: $padding;
+    margin: $margin;
+    border: none;
+    font-weight: $font-medium;
+}
+
+@mixin flexContainer() {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}

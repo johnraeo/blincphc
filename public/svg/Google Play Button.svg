@@ -1,0 +1,43 @@
+<svg id="Google_Play_Button" data-name="Google Play Button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="260" height="60" viewBox="0 0 260 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4277" data-name="Rectangle 4277" width="260" height="60" transform="translate(160 773)" fill="#f8f7ff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#63be6b"/>
+      <stop offset="0.506" stop-color="#5bbc6a"/>
+      <stop offset="1" stop-color="#4ab96a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="0.999" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3ec6f2"/>
+      <stop offset="1" stop-color="#45afe3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#faa51a"/>
+      <stop offset="0.387" stop-color="#fab716"/>
+      <stop offset="0.741" stop-color="#fac412"/>
+      <stop offset="1" stop-color="#fac80f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ec3b50"/>
+      <stop offset="1" stop-color="#e7515b"/>
+    </linearGradient>
+  </defs>
+  <g id="Rectangle_4277-2" data-name="Rectangle 4277" fill="#fff" stroke="#e0e0e0" stroke-width="2">
+    <rect width="260" height="60" stroke="none"/>
+    <rect x="1" y="1" width="258" height="58" fill="none"/>
+  </g>
+  <g id="Mask_Group_50" data-name="Mask Group 50" transform="translate(-160 -773)" clip-path="url(#clip-path)">
+    <rect id="Rectangle_4279" data-name="Rectangle 4279" width="260" height="60" transform="translate(160 833)" fill="#3544e6"/>
+  </g>
+  <g id="Group_9477" data-name="Group 9477" transform="translate(-160 -688)">
+    <text id="Get_it_on_Google_Play" data-name="Get it on Google Play" transform="translate(236 715)" fill="#575656" font-size="14" font-family="SFUIDisplay-Bold, SF UI Display" font-weight="700"><tspan x="0" y="0">Get it on Google Play</tspan></text>
+    <text id="Blinc.ph_1.0_for_Android" data-name="Blinc.ph 1.0 for Android" transform="translate(236 733)" fill="#575656" font-size="12" font-family="SFUIDisplay-Medium, SF UI Display" font-weight="500"><tspan x="0" y="0">Blinc.ph 1.0 for Android</tspan></text>
+    <g id="google-play-store" transform="translate(190 700.001)">
+      <path id="Path_3776" data-name="Path 3776" d="M20.18,10.972,1.157.1A.766.766,0,0,0,.386.107.761.761,0,0,0,0,.77s.008,1,.015,2.653L13.873,17.28Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+      <path id="Path_3777" data-name="Path 3777" d="M.2,44.4C.223,50.353.293,64.8.323,72L14.065,58.257Z" transform="translate(-0.185 -40.977)" fill="url(#linear-gradient-2)"/>
+      <path id="Path_3778" data-name="Path 3778" d="M197,148.523,186.116,142.3l-6.316,6.308,7.125,7.125,10.086-5.876a.771.771,0,0,0,.386-.663A.781.781,0,0,0,197,148.523Z" transform="translate(-165.935 -131.328)" fill="url(#linear-gradient-3)"/>
+      <path id="Path_3779" data-name="Path 3779" d="M1.7,237.934c.015,2.568.023,4.21.023,4.21a.752.752,0,0,0,.386.663.766.766,0,0,0,.771,0l19.687-11.482L15.441,224.2Z" transform="translate(-1.569 -206.912)" fill="url(#linear-gradient-4)"/>
+    </g>
+  </g>
+</svg>

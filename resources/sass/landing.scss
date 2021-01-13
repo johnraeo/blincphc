@@ -1,0 +1,152 @@
+/* Header Section */
+
+.header-section {
+    background: linear-gradient(rgb(68, 68, 68), rgba(0, 0, 0, 0)), url("/svg/Payments.png");
+    background-color: $black-color;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+
+    h1 {
+        font-size: 72px;
+        color: $white-color;
+    }
+    
+    p {
+        font-size: 24px;
+        font-family: $font-light;
+        margin-top: 30px;
+        color: $white-color;
+    }
+    
+    .landing-img {
+        min-width: 100%;
+    }
+    
+    .google-play-button {
+        width: 260px;
+        padding-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header-section{
+        width: 100vw;
+        padding-top: 0;
+
+        h1 {
+            font-size: 50px;
+            color: $white-color;
+        }
+        
+        p {
+            font-size: 25px;
+            font-family: $font-light;
+            color: $white-color;
+        }
+        
+        .landing-img {
+            min-width: 100%;
+        }
+        
+        .google-play-button {
+            width: 220px;
+            padding-top: 25px;
+        }
+    }
+}
+
+/* Section one */
+
+.section1 {
+    background-color: $white-color;
+    padding: 100px 0 0 0;
+
+    h1{
+        font-size: 72px !important;
+    }
+    
+    p {
+        font-family: $font-light;
+        font-size: 24px;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .mt-0 {
+        margin-top: 100px !important;
+    }
+}
+
+
+/* Section two */
+
+.section2 {
+    // padding: 0 0 0 0;
+
+    p {
+        font-family: $font-light;
+        font-size: 21px;
+    }
+    
+    img {
+        width: 100%;
+        /* opacity: 0.5;
+        border-radius: 5%; */
+    }
+    
+    .mt-0 {
+        margin-top: 150px !important;
+    }
+}
+
+
+/* Section three */
+
+.section3 {
+    background-color: $white-color;
+    padding: 50px 0 50px 0;
+
+    h1 {
+        font-size: 72px;
+    }
+    
+    .col-lg-10 {
+        text-align: center;
+    }
+    
+    p {
+        font-family: $font-light;
+        font-size: 24px;
+    }
+
+    .active-btn {
+        @include buttonLogic($primary-color, $white-color, 30%, 10px, 20px 0 20px 0);
+    }
+}
+
+
+/* Section four */
+
+.section4 {
+    background-color: $background-color;
+    padding: 100px 0 100px 0;
+
+    img {
+        width: 75%;
+    }
+
+    .input-container {
+
+        input {
+            background-color: $background-color;
+        }
+    }
+
+    .active-btn {
+        @include buttonLogic($primary-color, $white-color, 100%, 10px, 20px 0 20px 0);
+    }
+}
